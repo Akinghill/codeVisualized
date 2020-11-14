@@ -7,3 +7,11 @@ body {
   background: rgb(123,143,148);
   background: repeating-linear-gradient(45, rgba(123,143,148,1) 0%, rgba(108,114,115,1) 48%, rgba(123,143,148,1) 100%);
 }
+
+.vh-50 {
+  height: 50vh;
+}
+
+.ph-1r {
+  padding: 0rem 1rem;
+}
