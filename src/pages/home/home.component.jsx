@@ -9,14 +9,16 @@ const HomePage = () => (
   <div className="home-page">
     <Header />
 
-    <div className="mission-statement-container">
-      <h2 className="mission-statement-text">
+    <div className="hero">
+      <h2 className="mission-statement">
         Learn to code through visual experiences.
       </h2>
     </div>
 
 
     <div className="recent-posts">
+      <BlogPostCard />
+      <BlogPostCard />
       <BlogPostCard />
     </div>
 

@@ -4,15 +4,15 @@
   width: 100%;
   background-color: $theme-gray;
   border-radius: 12px;
-  padding: 1rem;
 
-  & .mission-statement-container {
+  & .hero {
+    margin-top: 100px;
     height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    & .mission-statement-text {
+    & .mission-statement {
       font-size: 4rem;
       margin: 0;
       width: 420px;
@@ -25,6 +25,7 @@
     border-radius: 12px;
     padding: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 }

@@ -5,7 +5,7 @@ import './header.styles.scss'
 export const Header = (params) => (
   <header className='header'>
     <div className="logo">
-      <img src="./assets/logo.png" alt=""/>
+      <img src="./assets/logo.svg" alt=""/>
     </div>
     <div className="site-title">
       code <br/> Visualized

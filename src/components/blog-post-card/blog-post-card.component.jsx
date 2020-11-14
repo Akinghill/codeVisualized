@@ -12,3 +12,4 @@ export const BlogPostCard = () => (
   </div>
 )
 
+export default BlogPostCard

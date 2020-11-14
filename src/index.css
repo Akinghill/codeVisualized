@@ -4,5 +4,6 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   background-color: black;
-  color: white;
+  background: rgb(123,143,148);
+  background: repeating-linear-gradient(45, rgba(123,143,148,1) 0%, rgba(108,114,115,1) 48%, rgba(123,143,148,1) 100%);
 }
