@@ -1,33 +1,35 @@
-@import '../../sass/colors/colors.scss';
+.hero {
+  height: 50vh;
+}
 
-.home-page {
-  width: 100%;
-  background-color: $theme-gray;
-  border-radius: 12px;
+.jumbotron {
+  min-height: 350px;
+  max-height: 400px;
+  padding-bottom: 0;
+}
 
-  & .hero {
-    margin-top: 100px;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
 
-    & .mission-statement {
-      font-size: 4rem;
-      margin: 0;
-      width: 420px;
-      padding-bottom: 100px;
-    }
-  }
-
-  & .recent-posts {
-    background-color: $theme-gray-1;
-    border-radius: 12px;
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.recent-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
 }
 
 
+.about-text {
+  // width: 33%;
+}
+
+/* On screens that are 700px or more*/
+@media screen and (min-width: 700px) {
+  .about-text {
+    width: 50%;
+  }
+}
