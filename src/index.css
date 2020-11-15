@@ -15,3 +15,7 @@ body {
 .ph-1r {
   padding: 0rem 1rem;
 }
+
+.active-nav-link {
+  color: #fff!important;
+}
