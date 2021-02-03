@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Navbar from '../../components/navbar/navbar.component'
+import Header from '../../components/header/Header'
 import { Card } from '../../components/card/card.component'
 import Jumbotron from '../../components/jumbotron/jumbotron.component'
 
@@ -8,7 +8,7 @@ import './home.styles.scss'
 
 const HomePage = () => (
   <div className="home-page">
-    <Navbar />
+    <Header />
     <Jumbotron />
     <section className="section ph-1r">
       <h2 className="posts-title">Posts</h2>
