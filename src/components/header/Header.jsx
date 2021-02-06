@@ -14,8 +14,15 @@ export default function Header() {
       </div>
 
       <nav className="nav">
-        <Link className='link' to="/web-dev">web dev</Link>
-        <Link className='link' to="/vr">virtual reality</Link>
+        <Link className="link" to="/web-dev">
+          web dev
+        </Link>
+        <Link className="link" to="/reviews">
+          reviews
+        </Link>
+        <Link className="link" to="/vr">
+          VR
+        </Link>
       </nav>
     </header>
   );
