@@ -1,0 +1,36 @@
+/* blinking cursor */
+#cursor {
+  background: #00bc8c;
+  display: inline-block;
+  line-height: 20px;
+  margin-left: 3px;
+  -webkit-animation: blink 0.8s infinite;
+  animation: blink 1.25s infinite;
+  width: 3px;
+  height: 41px;
+  position: relative;
+  bottom: -3px;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: #00bc8c;
+  }
+  100% {
+    background: #222;
+  }
+}
+@keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: #00bc8c;
+  }
+  100% {
+    background: #222;
+  }
+}

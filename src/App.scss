@@ -1,9 +1,14 @@
-@import "sass/colors/colors";
+@import 'sass/colors/colors';
 
 body {
   background-color: #222;
 }
 
 .navbar {
-  padding: .25rem 1rem;
+  padding: 0.25rem 1rem;
+}
+
+.name {
+  color: #00bc8c;
+  opacity: .75;
 }

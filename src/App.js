@@ -7,10 +7,12 @@ import AboutPage from './pages/about/about-page.component';
 import ReviewsPage from './pages/reviews/reviews-page.component'
 
 import './App.scss';
+import Header from './components/header/Header';
 
 function App() {
   return (
     <div className="app">
+      <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/blog' component={BlogPage} />

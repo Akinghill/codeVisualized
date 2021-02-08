@@ -8,10 +8,10 @@ import './header.styles.scss';
 export default function Header() {
   return (
     <header className="header">
-      <div className="brand-container">
+      <Link to="/" className="brand-container">
         <img className="brand-logo" src={logo} alt="code visualized" />
         <span className="brand-name">code visualized</span>
-      </div>
+      </Link>
 
       <nav className="nav">
         <Link className="link" to="/web-dev">
