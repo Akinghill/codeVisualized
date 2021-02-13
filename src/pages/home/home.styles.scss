@@ -1,35 +1,6 @@
-.hero {
-  height: 50vh;
-}
-
-.jumbotron {
-  min-height: 350px;
-  max-height: 400px;
-  padding-bottom: 0;
-}
-
-.section {
-  max-width: 1200px;
-  margin: auto;
-  margin-bottom: 2rem;
-}
-
-.recent-posts {
+.home-page {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  max-width: 1200px;
-  margin: auto;
-}
-
-
-.about-text {
-  // width: 33%;
-}
-
-/* On screens that are 700px or more*/
-@media screen and (min-width: 700px) {
-  .about-text {
-    width: 50%;
-  }
+  padding: 0rem 5px;
+  padding-top: 0.5rem;
 }

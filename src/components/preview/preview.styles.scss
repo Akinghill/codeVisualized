@@ -1,0 +1,42 @@
+.preview {
+  display: flex;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  border-color: #fff;
+  max-height: 200px;
+  padding: 1rem 1rem;
+  margin: auto;
+  width: 100%;
+  padding: 0.2rem;
+
+}
+
+.content {
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin-top: .65rem;
+  width: 100%;
+  color: white;
+  &:hover {
+    color: white;
+    text-decoration: none;
+    border-color: #00bc8c;
+
+  }
+}
+
+.title {
+  font-size: 2rem;
+  vertical-align: center;
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.icon {
+  font-size: 2rem !important;
+}

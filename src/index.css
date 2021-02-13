@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+html{
+  overflow-x: hidden;
 
+}
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   background-color: black;
-  background: rgb(123,143,148);
-  background: repeating-linear-gradient(45, rgba(123,143,148,1) 0%, rgba(108,114,115,1) 48%, rgba(123,143,148,1) 100%);
+  background: rgb(123, 143, 148);
+  background: repeating-linear-gradient(
+    45,
+    rgba(123, 143, 148, 1) 0%,
+    rgba(108, 114, 115, 1) 48%,
+    rgba(123, 143, 148, 1) 100%
+  );
+  overflow-x: hidden;
 }
 
 .vh-50 {
@@ -17,5 +26,5 @@ body {
 }
 
 .active-nav-link {
-  color: #fff!important;
+  color: #fff !important;
 }

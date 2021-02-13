@@ -7,23 +7,14 @@ import './header.styles.scss';
 
 export default function Header() {
   return (
-    <header className="header">
-      <Link to="/" className="brand-container">
-        <img className="brand-logo" src={logo} alt="code visualized" />
-        <span className="brand-name">code visualized</span>
-      </Link>
-
-      <nav className="nav">
-        <Link className="link" to="/web-dev">
-          web dev
+    <>
+      <header className="header">
+        <Link to="/" className="brand-container">
+          <img className="brand-logo" src={logo} alt="code visualized" />
+          <span className="brand-name">code visualized</span>
         </Link>
-        <Link className="link" to="/reviews">
-          reviews
-        </Link>
-        <Link className="link" to="/vr">
-          VR
-        </Link>
-      </nav>
-    </header>
+      </header>
+      <div className="spacer"></div>
+    </>
   );
 }

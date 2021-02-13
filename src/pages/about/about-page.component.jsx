@@ -1,11 +1,11 @@
 import React from 'react'
-
-import Navbar from '../../components/navbar/navbar.component'
+import Header from '../../components/header/Header'
 
 export default function AboutPage() {
   return (
     <div>
-      <Navbar/>
+      <Header/>
+      
     </div>
   )
 }
